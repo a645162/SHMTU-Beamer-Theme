@@ -8,6 +8,11 @@ An unofficial LaTeX beamer template for Shanghai Maritime University students.
 
 [English Version README](README.en.md)
 
+#### 样本展示
+
+请参考
+[slide.pdf](slide.pdf)
+
 #### LaTeX编译器
 
 **XeLaTeX**
