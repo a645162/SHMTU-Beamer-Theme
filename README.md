@@ -2,7 +2,7 @@
 
 #### 介绍
 
-一个供上海海事大学(SHMTU)同学非官方的 LaTeX Beamer 主题模板。
+一个供上海海事大学(SHMTU)同学使用的非官方的 LaTeX Beamer 主题模板。
 
 An unofficial LaTeX beamer template for Shanghai Maritime University students.
 
@@ -27,9 +27,12 @@ An unofficial LaTeX beamer template for Shanghai Maritime University students.
 
 #### 使用说明
 
-1. 设置TeXstudio的默认编译器为XeLaTeX
+1. 设置 TeXstudio 的默认编译器为 XeLaTeX
 2. 修改内容
-3. 编译tex
+3. 编译 tex 文件
+
+注意：由于 .gitignore 将会生成文件忽略，因此一些文件不会被上传到仓库，
+因此，首次编译，或者您修改Bib文件后可能需要较长的时间进行编译！
 
 #### 其他说明书
 
