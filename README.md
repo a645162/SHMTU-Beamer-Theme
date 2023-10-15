@@ -8,6 +8,22 @@ An unofficial LaTeX beamer template for Shanghai Maritime University students.
 
 [English Version README](README.en.md)
 
+#### 什么是 Beamer？
+
+Beamer是一个用于制作演示文稿(PPT)的LaTeX文档类。它提供了许多用于创建幻灯片的功能和样式。
+
+Beamer使得使用LaTeX来创建专业和美观的幻灯片变得非常方便。它提供了一些预定义的主题和颜色主题，但也允许用户根据自己的需求进行自定义。通过使用Beamer，用户可以使用LaTeX的强大排版功能，如**数学公式**、图表、图像等，来便捷地创建高质量的演示文稿。
+
+Beamer的语法和使用方式与普通的LaTeX文档类类似。用户可以在LaTeX编辑器中编写Beamer文档，并使用LaTeX编译器来生成PDF格式的幻灯片。
+
+##### 字太多不想看？总结一下！OK！安排！
+
+简单来说，其实就是用 LaTeX 套模板，快速制作PPT，不一定多好看，反正不会很丑就是啦！
+
+而且，这个风格？**学术风**！
+
+众所周知，LaTeX输入公式非常滴方便！
+
 #### 样本展示
 
 请参考
