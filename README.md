@@ -8,13 +8,29 @@ An unofficial LaTeX beamer template for Shanghai Maritime University students.
 
 [English Version README](README.en.md)
 
+#### 仓库地址
+
+**github 仓库地址**
+
+[https://github.com/a645162/SHMTU-Beamer-Theme](https://github.com/a645162/SHMTU-Beamer-Theme)
+
+**gitee 仓库地址**
+
+[https://gitee.com/a645162/shmtu-beamer-theme](https://gitee.com/a645162/shmtu-beamer-theme)
+
+**注:**
+
+1. gitee 仓库地址只用于加速下载，版本可能较旧。
+2. 最新改动请参考 [dev分支](https://github.com/a645162/SHMTU-Beamer-Theme/tree/dev)
+
+
 #### 什么是 Beamer？
 
-Beamer是一个用于制作演示文稿(PPT)的LaTeX文档类。它提供了许多用于创建幻灯片的功能和样式。
+Beamer 是一个用于制作演示文稿(PPT)的 LaTeX 文档类。它提供了许多用于创建幻灯片的功能和样式。
 
-Beamer使得使用LaTeX来创建专业和美观的幻灯片变得非常方便。它提供了一些预定义的主题和颜色主题，但也允许用户根据自己的需求进行自定义。通过使用Beamer，用户可以使用LaTeX的强大排版功能，如**数学公式**、图表、图像等，来便捷地创建高质量的演示文稿。
+Beamer 使得使用 LaTeX 来创建专业和美观的幻灯片变得非常方便。它提供了一些预定义的主题和颜色主题，但也允许用户根据自己的需求进行自定义。通过使用 Beamer，用户可以使用 LaTeX 的强大排版功能，如**数学公式**、图表、图像等，来便捷地创建高质量的演示文稿。
 
-Beamer的语法和使用方式与普通的LaTeX文档类类似。用户可以在LaTeX编辑器中编写Beamer文档，并使用LaTeX编译器来生成PDF格式的幻灯片。
+Beamer 的语法和使用方式与普通的 LaTeX 文档类类似。用户可以在 LaTeX 编辑器(TeXstudio)中编写 Beamer 文档，并使用 XeLaTeX 编译器来生成 PDF 格式的幻灯片。
 
 ##### 字太多不想看？总结一下！OK！安排！
 
@@ -33,7 +49,7 @@ Beamer的语法和使用方式与普通的LaTeX文档类类似。用户可以在
 
 **XeLaTeX**
 
-一定要使用XeLaTeX！！！否则卡你半天，最后报一堆错！
+一定要使用 XeLaTeX ！！！否则卡你半天，最后报一堆错！
 
 #### 安装教程
 
@@ -52,7 +68,7 @@ Beamer的语法和使用方式与普通的LaTeX文档类类似。用户可以在
 
 #### 其他说明书
 
-其他说明书均位于 Instructions 目录下
+以下说明书以及更多的说明书均位于 Instructions 目录下
 
 **TeXstudio安装/配置教程**
 请参考 [TeXstudio.md](Instructions/TeXstudio.md)
@@ -66,6 +82,8 @@ Beamer的语法和使用方式与普通的LaTeX文档类类似。用户可以在
 2. 新建 Feat_xxx 分支
 3. 提交代码
 4. 新建 Pull Request
+
+注:gitee 仓库地址只用于加速下载，版本可能较旧。
 
 #### 致谢
 
