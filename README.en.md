@@ -1,36 +1,21 @@
-# SHMTU Beamer Theme
+# SHMTU(Shanghai Maritime University) Beamer Theme
 
 #### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
 
-#### Software Architecture
-Software architecture description
+An unofficial LaTeX beamer template for Shanghai Maritime University students.
+
+#### LaTeX Complier
+
+XeLaTeX
 
 #### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. Install TeXLive/macTeX
+2. Install TeXstudio
+3. Clone repo/Download zip
 
-#### Instructions
+#### Other Instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+Please refer to the Chinese version of the
+[README.md](https://github.com/a645162/SHMTU-Beamer-Theme/blob/master/README.md)
+, after all, this is the material used by a Chinese university.
