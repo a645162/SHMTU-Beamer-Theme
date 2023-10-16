@@ -23,7 +23,6 @@ An unofficial LaTeX beamer template for Shanghai Maritime University students.
 1. gitee 仓库地址只用于加速下载，版本可能较旧。
 2. 最新改动请参考 [dev分支](https://github.com/a645162/SHMTU-Beamer-Theme/tree/dev)
 
-
 #### 什么是 Beamer？
 
 Beamer 是一个用于制作演示文稿(PPT)的 LaTeX 文档类。它提供了许多用于创建幻灯片的功能和样式。
@@ -53,15 +52,19 @@ Beamer 的语法和使用方式与普通的 LaTeX 文档类类似。用户可以
 
 #### 安装教程
 
-1. 安装 TeXLive/macTeX
+1. 安装 TeXLive/MacTeX
 2. 安装 TeXstudio(支持Windows/macOS/Linux)
 3. 克隆仓库/下载ZIP
+
+注：最新版本的 TeXLive 2023 经过测试是可以使用的！
+
+我的 TeXLive 已经将所有包更新至最新(2023年10月16日)，依旧可以使用！
 
 #### 使用说明
 
 1. 设置 TeXstudio 的默认编译器为 XeLaTeX
-2. 修改内容
-3. 编译 tex 文件
+2. 修改 tex 文件内容(只有.tex文件允许修改文件名)
+3. 编译 .tex 文件
 
 注意：由于 .gitignore 将会生成文件忽略，因此一些文件不会被上传到仓库，
 因此，首次编译，或者您修改Bib文件后可能需要较长的时间进行编译！
@@ -84,6 +87,14 @@ Beamer 的语法和使用方式与普通的 LaTeX 文档类类似。用户可以
 4. 新建 Pull Request
 
 注:gitee 仓库地址只用于加速下载，版本可能较旧。
+
+#### 工作计划
+
+推荐一个仓库
+
+[https://github.com/hellckt/SHMTUThesis](https://github.com/hellckt/SHMTUThesis)
+
+这是我们学校一位校友制作的硕士毕业论文模板，但是经过我的测试 TeXLive 2023 是不可以正常编译的！但是 TeXLive 2020还是可以用滴，所以暂时凑活一下吧！我准备修改一下，也许就咕咕咕了，但是我准备修改一个课设可以用的模板！
 
 #### 致谢
 
