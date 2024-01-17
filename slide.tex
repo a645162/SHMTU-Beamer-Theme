@@ -15,11 +15,15 @@
 \usepackage{latexsym,amsmath,xcolor,multicol,booktabs,calligra}
 \usepackage{graphicx,pstricks,listings,stackengine}
 
-\author{汇报人：XXX}
-\title{XXX的毕业设计开题报告}
+\usepackage{CJKutf8}
+\setCJKfamilyfont{SimHei}{simhei.ttf}
+% \newcommand{\SimHei}{\CJKfamily{SimHei}}
+
+\author{\CJKfamily{SimHei}制作人：孔昊旻}
+\title{上海海事大学Beamer模板}
 \subtitle{Shanghai Maritime University Beamer Theme}
 \institute{上海海事大学 物流科学与工程研究院}
-\date{2023年10月14日}
+\date{2024年01月17日}
 \usepackage{Template/SHMTU_Macro}
 
 % defs
@@ -47,7 +51,7 @@
 
 
 \begin{document}
-	
+
 	\kaishu
 	\begin{frame}
 		\titlepage
@@ -58,26 +62,26 @@
 			\end{center}
 		\end{figure}
 	\end{frame}
-	
+
 	\begin{frame}
 		\tableofcontents[sectionstyle=show,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
 	\end{frame}
-	
-	
+
+
 	\section{课题背景}
-	
+
 	\begin{frame}{为什么使用Beamer}
 		\begin{itemize}[<+-| alert@+>] % 除使用alert，也可手动插入 \pause
 			\item 大家都会\LaTeX{}，很多学校都有自己的Beamer主题
 			\item 中文支持请选择 Xe\LaTeX{} 编译选项
 		\end{itemize}
 	\end{frame}
-	
-	
+
+
 	\section{研究现状}
-	
+
 	\subsection{Beamer主题分类}
-	
+
 	\begin{frame}
 		\begin{itemize}
 			\item 有些来自 \LaTeX{} 内置主题
@@ -88,12 +92,12 @@
 			修改了校徽、主题颜色以及其他部分内容\cite{shmtu_vi}
 		\end{itemize}
 	\end{frame}
-	
-	
+
+
 	\section{研究内容}
-	
+
 	\subsection{美化主题}
-	
+
 	\begin{frame}{THU Beamer Theme的新特性}
 		\begin{itemize}
 			\item 顶栏采用单行圆圈指示
@@ -102,9 +106,9 @@
 			\item 下面列举出了一些Beamer的用法，部分节选自 \url{https://tuna.moe/event/2018/latex/}
 		\end{itemize}
 	\end{frame}
-	
+
 	\subsection{如何更好地制作Beamer}
-	
+
 	\begin{frame}{Why Beamer}
 		\begin{itemize}
 			\item \LaTeX 广泛用于学术界，期刊会议论文模板
@@ -126,9 +130,9 @@
 			\end{tabular}
 		\end{table}
 	\end{frame}
-	
+
 	\begin{frame}{排版举例}
-		\begin{exampleblock}{无编号公式} % 加 * 
+		\begin{exampleblock}{无编号公式} % 加 *
 			\begin{equation*}
 				J(\theta) = \mathbb{E}_{\pi_\theta}[G_t] = \sum_{s\in\mathcal{S}} d^\pi (s)V^\pi(s)=\sum_{s\in\mathcal{S}} d^\pi(s)\sum_{a\in\mathcal{A}}\pi_\theta(a|s)Q^\pi(s,a)
 			\end{equation*}
@@ -141,7 +145,7 @@
 			\end{align}
 		\end{exampleblock}
 	\end{frame}
-	
+
 	\begin{frame}
 		\begin{exampleblock}{编号多行公式}
 			% Taken from Mathmode.tex
@@ -155,7 +159,7 @@
 			\end{multline}
 		\end{exampleblock}
 	\end{frame}
-	
+
 	\begin{frame}{图形与分栏}
 		\begin{minipage}[c]{0.3\linewidth}
 			\psset{unit=0.8cm}
@@ -190,7 +194,7 @@
 			\end{figure}
 		\end{minipage}
 	\end{frame}
-	
+
 	\begin{frame}[fragile]{\LaTeX{} 常用命令}
 		\begin{exampleblock}{命令}
 			\centering
@@ -217,7 +221,7 @@
 			\end{tabular}
 		\end{exampleblock}
 	\end{frame}
-	
+
 	\begin{frame}[fragile]{\LaTeX{} 环境命令举例}
 		\begin{minipage}{0.5\linewidth}
 			\begin{lstlisting}[language=TeX]
@@ -264,17 +268,17 @@
 			\end{enumerate}
 		\end{minipage}
 	\end{frame}
-	
+
 	\begin{frame}[fragile]{\LaTeX{} 数学公式}
 		\begin{columns}
 			\begin{column}{.55\textwidth}
 				\begin{lstlisting}[language=TeX]
 					$V = \frac{4}{3}\pi r^3$
-					
+
 					\[
 					V = \frac{4}{3}\pi r^3
 					\]
-					
+
 					\begin{equation}
 						\label{eq:vsphere}
 						V = \frac{4}{3}\pi r^3
@@ -296,7 +300,7 @@
 			\item 更多内容请看 \href{https://zh.wikipedia.org/wiki/Help:数学公式}{\color{purple}{这里}}
 		\end{itemize}
 	\end{frame}
-	
+
 	\begin{frame}[fragile]
 		\begin{columns}
 			\column{.6\textwidth}
@@ -332,7 +336,7 @@
 			\normalsize 公式~(\ref{eq:vsphere})的编号与含义请参见表~\ref{tab:number}。
 		\end{columns}
 	\end{frame}
-	
+
 	\begin{frame}{作图}
 		\begin{itemize}
 			\item 矢量图 eps, ps, pdf
@@ -353,7 +357,7 @@
 			\caption{这个校徽就是矢量图}
 		\end{figure}
 	\end{frame}
-	
+
 	\section{计划进度}
 	\begin{frame}
 		\begin{itemize}
@@ -363,21 +367,21 @@
 			\item 五月：论文撰写
 		\end{itemize}
 	\end{frame}
-	
+
 	\section{参考文献}
-	
+
 	\begin{frame}[allowframebreaks]
 		\bibliography{Bib/ref}
 		\bibliographystyle{alpha}
 		% 如参考文献较多，可按如下方式调整字体：
 		% \tiny\bibliographystyle{alpha}
 	\end{frame}
-	
+
 	\begin{frame}
 		\begin{center}
 			% {\Huge\calligra Thanks!}
 			{\Huge 感谢聆听，恳请指导}
 		\end{center}
 	\end{frame}
-	
+
 \end{document}
